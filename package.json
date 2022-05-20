@@ -1,0 +1,13 @@
+{
+  "name": "NFTS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c1 & tailwindcss -i ./tailwind.css -o ./style.css --watch"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
+  }
+}
